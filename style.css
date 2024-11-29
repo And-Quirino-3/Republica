@@ -81,18 +81,8 @@ main section {
   .main-img {
     display: none;
   }
-  .main-img img {
-    background: src('./img/manga-costas.png');
-  }
-  
 }
 
-@media screen and (min-width: 775px) {
-  div .main-text {
-    height: 373.219px;
-    width: 453.516px;
-  }
-}
 .main-text h1 {
   font-size: 2rem;
   margin-bottom: 3vh;
