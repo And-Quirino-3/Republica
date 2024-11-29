@@ -134,23 +134,31 @@ main section {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 1px 1px #ffee00;
+  box-shadow: 1px 1px rgb(99, 202, 209);
   transition: all 0.5s;
 }
 
 .main-text .content span:hover {
   opacity: .80;
 }
-#manga {
-  background: url(./img/1.png) no-repeat;
-  background-size: cover;
-  background-position: top center;
+#primeira {
+  background-color: #E7E7E7;
 }
 
-#regata {
-  background: url(./img/2.png) no-repeat;
-  background-size: cover;
-  background-position: center;
+#segunda {
+  background-color: #F39F19;
+}
+
+#terceira {
+  background-color: #3A5479;
+}
+
+#quarta {
+  background-color: #181818;
+}
+
+#quinta {
+  background-color: #02C5C0; 
 }
 
 .main-img {
