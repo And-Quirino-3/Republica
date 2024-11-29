@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>República dos Vagabundos</title>
+</head>
+<body>
+    <header>
+        <nav class="navegation">
+            <a href="index.html"><img src="img/logo.png" alt="Logo RDV" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" class="check">Camisas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <h1>República dos Vagabundos</h1>
+                <h3>Adquira sua camisa</h3>
+                <p>A melhor loja de camisas de todo o mundo</p>
+                <h6>Valor: R$ 49,99</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>escolha sua camisa:</h5>
+                </div>
+                <div class="content">
+                    <span id="manga" onclick="trocaCamisa('./img/mangas.PNG'); circleChange('#fff14f')"></span>
+                    <span id="regata" onclick="trocaCamisa('./img/regata.PNG'); circleChange('#fff14f')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="./img/mangas.PNG" alt="camisa de manga" id="camisa" >
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
