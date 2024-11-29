@@ -16,14 +16,28 @@ header {
   background: #000000;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .navegation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+@media screen and (max-width: 682px) {
+  .navegation {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }  
+}
+
 .navegation .logo {
-  width: 50px;
+  width: 80px;
 }
 
 .navegation ul {
@@ -59,6 +73,26 @@ main section {
   padding: 5rem 10rem;
 }
 
+@media screen and (max-width: 1130px) {
+  
+  .circle {
+    display: none;
+  }
+  .main-img {
+    display: none;
+  }
+  .main-img img {
+    background: src('./img/manga-costas.png');
+  }
+  
+}
+
+@media screen and (min-width: 775px) {
+  div .main-text {
+    height: 373.219px;
+    width: 453.516px;
+  }
+}
 .main-text h1 {
   font-size: 2rem;
   margin-bottom: 3vh;
